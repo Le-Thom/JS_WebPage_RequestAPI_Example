@@ -1,0 +1,28 @@
+body {
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#err {
+    display: none;
+}
+
+#err.show {
+    display: block;
+    color: #0f0f0f;
+    background-color: #f05050;
+}
+
+#rnd {
+    display: flex;
+}
+
+#rnd.hide {
+    display: none;
+}
