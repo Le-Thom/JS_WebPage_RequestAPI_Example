@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "node src/Server/server.js"
+    "test": "start src/Client/index.html && node src/Server/server.js"
   },
   "author": "",
   "license": "ISC",
